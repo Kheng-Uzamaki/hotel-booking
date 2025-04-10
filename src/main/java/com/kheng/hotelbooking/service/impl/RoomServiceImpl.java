@@ -158,7 +158,7 @@ public class RoomServiceImpl implements RoomService {
         );
         return Response.builder()
                 .status(200)
-                .message("Success")
+                .message("Successful")
                 .rooms(roomDTOList)
                 .build();
     }
